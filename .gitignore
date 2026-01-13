@@ -1,0 +1,81 @@
+# ======================
+# Python cache & bytecode
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ======================
+# Virtual environments
+# ======================
+venv/
+.env/
+.env*/
+.venv/
+pip-wheel-metadata/
+
+# ======================
+# Distribution / packaging
+# ======================
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ======================
+# Logs & runtime files
+# ======================
+*.log
+*.pid
+
+# ======================
+# Testing & coverage
+# ======================
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# ======================
+# Jupyter Notebook
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# IDE & Editor settings
+# ======================
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# ======================
+# OS-specific files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Environment & secrets
+# ======================
+.env
+*.env
+*.key
+*.pem
+
+# ======================
+# Database files (optional)
+# ======================
+*.sqlite3
+*.db
